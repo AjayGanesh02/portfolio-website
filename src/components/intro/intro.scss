@@ -2,4 +2,28 @@
 
 .intro {
     background-color: $blkColor1;
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        overflow: hidden;
+
+        .imgContainer{
+            width: 700px;
+            height: 700px;
+            background-color: $blkColor2;
+            border-radius: 50%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            float: right;
+
+            img{
+                height: 90%;
+            }
+        }
+    }
+    .right{
+        flex: 0.5;
+    }
 }
