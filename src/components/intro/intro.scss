@@ -7,10 +7,12 @@
     .left{
         flex: 0.5;
         overflow: hidden;
+        // align-items: center;
+        // justify-content: center;
 
         .imgContainer{
-            width: 700px;
-            height: 700px;
+            width: 725px;
+            height: 725px;
             background-color: $blkColor2;
             border-radius: 50%;
             display: flex;
@@ -19,11 +21,89 @@
             float: right;
 
             img{
-                height: 90%;
+                width: 100%;
             }
         }
     }
     .right{
         flex: 0.5;
+        position: relative;
+        color: $textColor;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 30px;
+
+            h2{
+                font-size: 45px;
+            }
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+            }
+            h3{
+                font-size: 50px;
+
+                span{
+                    font-size: inherit;
+                    color: #16825d;
+                }
+
+                .ityped-cursor {
+                    color: $textColor;
+                    opacity: 1;
+                    -webkit-animation: blink 0.3s infinite;
+                    -moz-animation: blink 0.3s infinite;
+                    animation: blink 0.3s infinite;
+                    animation-direction: alternate;
+                }
+                
+                @keyframes blink {
+                    100% {
+                        opacity: 0;
+                    }
+                }
+                
+                @-webkit-keyframes blink {
+                    100% {
+                        opacity: 0;
+                    }
+                }
+                
+                @-moz-keyframes blink {
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+        a{
+            position: absolute;
+            bottom: 10px;
+            left: 25%;
+            color: $textColor;
+            .icon{
+                font-size: 70px;
+                text-decoration: none;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink {
+                0% {
+                    opacity: 0;
+                }
+                50% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+        }
     }
 }
