@@ -14,10 +14,10 @@ export default function About() {
               I'm currently looking for CS internships and full-time opportunities.<br/>
               You can reach me at: <br/>
               <br/> 
-              <a href="mailto:ajganesh2002@gmail.com"> - ajganesh2002@gmail.com</a>
+              <a href="mailto:ajganesh2002@gmail.com" target="_blank" rel="noopener noreferrer"> - ajganesh2002@gmail.com</a>
               <br/>  
               <br/>
-              <a href="tel:614-558-5989"> - 614-558-5989</a>
+              <a href="tel:614-558-5989" target="_blank" rel="noopener noreferrer"> - 614-558-5989</a>
             </p>
           </div>
         </div>
@@ -25,7 +25,7 @@ export default function About() {
           <h3>Some of my other interests include</h3>
           <ul>
             <li> - Gaming! I play Valorant and Teamfight Tactics </li>
-            <li> - Music - <a href="https://open.spotify.com/user/224czyl7a6dnrgduovxrvimxi?si=b20a120379dd48ae">Click here for my Spotify :)</a></li>
+            <li> - Music - <a href="https://open.spotify.com/user/224czyl7a6dnrgduovxrvimxi?si=b20a120379dd48ae" target="_blank" rel="noopener noreferrer">Click here for my Spotify :)</a></li>
           </ul>
         </div>
       </div>
