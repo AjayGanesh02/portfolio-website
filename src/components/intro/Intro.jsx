@@ -27,8 +27,10 @@ export default function Intro() {
           <h2>Hi there, I'm</h2>
           <h1>Ajay Ganesh</h1>
           <h3>I'm a <span ref={textRef}></span></h3>
+          <h3><a href="https://drive.google.com/file/d/11PFusrOQBQFyViXWwQ-y4FthtKp9QWd-/view?usp=sharing" target="_blank" rel="noopener noreferrer">Click here for my resume</a></h3>
+          
         </div>
-        <a href="#portfolio">
+        <a className="downicon" href="#portfolio">
           <KeyboardArrowDownIcon className="icon" />
         </a>
       </div>
