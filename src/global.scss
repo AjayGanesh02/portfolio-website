@@ -3,3 +3,12 @@ $accentColor: #007acc;
 $blkColor1: #1e1e1e;
 $blkColor2: #252526;
 $topBarText: #fff;
+
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content
+    }
+}
