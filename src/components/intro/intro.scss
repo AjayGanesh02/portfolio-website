@@ -11,14 +11,15 @@
         // justify-content: center;
 
         .imgContainer{
-            width: 725px;
-            height: 725px;
+            width: 650px;
+            height: 650px;
             background-color: $blkColor2;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
             justify-content: center;
             float: right;
+            margin-top: 5%;
 
             img{
                 width: 100%;
@@ -47,7 +48,7 @@
                 margin: 10px 0;
             }
             h3{
-                font-size: 50px;
+                font-size: 45px;
 
                 span{
                     font-size: inherit;
@@ -57,9 +58,9 @@
                 .ityped-cursor {
                     color: $textColor;
                     opacity: 1;
-                    -webkit-animation: blink 0.3s infinite;
-                    -moz-animation: blink 0.3s infinite;
-                    animation: blink 0.3s infinite;
+                    -webkit-animation: blink 0.5s infinite;
+                    -moz-animation: blink 0.5s infinite;
+                    animation: blink 0.5s infinite;
                     animation-direction: alternate;
                 }
                 
