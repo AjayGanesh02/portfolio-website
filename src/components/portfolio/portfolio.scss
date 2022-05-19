@@ -55,13 +55,13 @@
             width: 250px;
             height: 180px;
             border-radius: 20px;
-            border: 1px solid lightgray;
+            border: 1px solid $blkColor1;
             margin: 10px 20px;
             display: flex;
             align-items: center;
             justify-content: center;
             position: relative;
-            transition: all .5 ease;
+            transition: all .4s ease;
             cursor: pointer;
 
             @include mobile {
@@ -74,6 +74,11 @@
                 position: absolute;
                 font-size: 17px;
                 padding: 10%;
+
+                @include mobile {
+                    
+                    font-size: 12px;
+                }
             }
 
             img{

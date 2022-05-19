@@ -2,7 +2,7 @@ export const featuredPortfolio = [
     {
         id: "1",
         title: "Word Hunt Solver",
-        img: ""
+        img: "assets/comingsoon.jpg"
     },
     {
         id: "5",
@@ -19,7 +19,7 @@ export const reactPortfolio = [
     {
         id: "1",
         title: "Word Hunt Solver Frontend",
-        img: "",
+        img: "assets/comingsoon.jpg",
     },
     {
         id: "3",
@@ -60,6 +60,6 @@ export const pythonPortfolio = [
     {
         id: "8",
         title: "Word Hunt Solver Backend",
-        img: ""
+        img: "assets/comingsoon.jpg"
     }
 ]
