@@ -2,7 +2,8 @@ export const featuredPortfolio = [
     {
         id: "1",
         title: "Word Hunt Solver",
-        img: "assets/comingsoon.jpg"
+        img: "assets/comingsoon.jpg",
+        link: "https://whsolver.ajayganesh.com/"
     },
     {
         id: "5",
@@ -53,7 +54,8 @@ export const cPortfolio = [
     {
         id: "7",
         title: "Assembly Code Assembler, Linker, and Simulator",
-        img: "assets/linkersim.png"
+        img: "assets/linkersim.png",
+        link: "https://docs.google.com/document/d/1L-AMed-PDjUqh0lExW07yu9_lqYbVzhWi9JBrqoO0AI/edit?usp=sharing"
     }
 ]
 export const pythonPortfolio = [

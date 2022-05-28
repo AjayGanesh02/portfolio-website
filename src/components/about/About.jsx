@@ -26,7 +26,7 @@ export default function About() {
             <li> - Gaming! I play Valorant and Teamfight Tactics </li>
             <li> - Music - <a href="https://open.spotify.com/user/224czyl7a6dnrgduovxrvimxi?si=b20a120379dd48ae" target="_blank" rel="noopener noreferrer">Click here for my Spotify :)</a></li>
             <li> - Fashion </li>
-            <li> - Travel - NYC soon!</li>
+            <li> - Travel - Toronto soon!</li>
           </ul>
         </div>
       </div>
