@@ -2,7 +2,7 @@ export const featuredPortfolio = [
     {
         id: "1",
         title: "Word Hunt Solver",
-        img: "assets/comingsoon.jpg",
+        img: "assets/whsolver.png",
         link: "https://whsolver.ajayganesh.com/"
     },
     {
@@ -20,7 +20,7 @@ export const reactPortfolio = [
     {
         id: "1",
         title: "Word Hunt Solver Frontend",
-        img: "assets/comingsoon.jpg",
+        img: "assets/whsolver.png",
     },
     {
         id: "3",
@@ -62,6 +62,30 @@ export const pythonPortfolio = [
     {
         id: "8",
         title: "Word Hunt Solver Backend",
-        img: "assets/comingsoon.jpg"
+        img: "assets/whsolver.png"
     }
 ]
+export const jsPortfolio = [
+    {
+        id: "1",
+        title: "Word Hunt Solver Frontend",
+        img: "assets/whsolver.png",
+    },
+    {
+        id: "3",
+        title: "CaringWire Mobile App",
+        img: "assets/caringwiremobile.png"
+    },
+    {
+        id: "2",
+        title: "CaringWire Web App",
+        img: "assets/caringwireweb.png"
+    },
+    {
+        id: "4",
+        title: "This Portfolio Site",
+        img: "assets/portfoliosite.png"
+    },  
+]
+
+    

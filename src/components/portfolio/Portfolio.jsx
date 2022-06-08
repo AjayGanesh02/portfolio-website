@@ -1,13 +1,13 @@
 import "./portfolio.scss"
 import PortfolioList from "./portfolioList";
 import { useState, useEffect } from "react";
-import { featuredPortfolio, reactPortfolio, angularPortfolio, cPortfolio, pythonPortfolio } from "./portfolioData";
+import { featuredPortfolio, cPortfolio, pythonPortfolio, jsPortfolio } from "./portfolioData";
 
 export default function Portfolio() {
 
   const [selected, setSelected] = useState("featured");
   const [data, setData] = useState(featuredPortfolio);
-  const list = [{ id: "featured", title: "Featured", }, { id: "react", title: "React", }, { id: "angular", title: "Angular", }, { id: "c", title: "C/C++", }, { id: "python", title: "Python", }]
+  const list = [{ id: "featured", title: "Featured", }, { id: "c", title: "C/C++", }, { id: "js", title: "JavaScript", },  { id: "python", title: "Python", }]
 
   useEffect(() => {
 
@@ -15,11 +15,8 @@ export default function Portfolio() {
       case "featured":
         setData(featuredPortfolio);
         break;
-      case "react":
-        setData(reactPortfolio);
-        break;
-      case "angular":
-        setData(angularPortfolio);
+      case "js":
+        setData(jsPortfolio);
         break;
       case "c":
         setData(cPortfolio);
