@@ -1,3 +1,4 @@
+import FadeInSection from "../animation/FadeInSection"
 import "./about.scss"
 
 export default function About() {
@@ -5,10 +6,10 @@ export default function About() {
     <div className="about" id="about">
       <div className="container">
         <div className="left">
-          <h1>About Me</h1>
+          <h1>/about me</h1>
           <div className="wrapper">
             <p>Hey! I'm a rising 3rd year CS student at the University of Michigan College of Engineering.<br/>
-              I grew up in New Albany, Ohio, where I've been fortunate enough to find tons of previous CS experience.<br/>
+              I grew up in New Albany, Ohio, where I've been fortunate enough to soak up tons of previous CS experience.<br/>
               I've had a deep love of all things tech ever since childhood, and I'm excited to share that with you!<br/>
               My most recent job was as a Software Engineer Intern at CaringWire, a startup in the Columbus Area. <br/>
               I'm currently looking for CS/SWE internships and full-time opportunities.<br/>
@@ -21,6 +22,7 @@ export default function About() {
           </div>
         </div>
         <div className="right">
+          <FadeInSection>
           <h3>Some of my other interests include</h3>
           <ul>
             <li> - Gaming! I play Valorant and Teamfight Tactics </li>
@@ -28,6 +30,7 @@ export default function About() {
             <li> - Fashion </li>
             <li> - Travel - Toronto soon!</li>
           </ul>
+          </FadeInSection>
         </div>
       </div>
     </div>

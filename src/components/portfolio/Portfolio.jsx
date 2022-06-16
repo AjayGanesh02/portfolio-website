@@ -33,7 +33,7 @@ export default function Portfolio() {
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+      <h1>/portfolio</h1>
       <p>Click on each project to be taken to their respective project pages</p>
       <br />
       <ul>
