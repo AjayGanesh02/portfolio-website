@@ -86,6 +86,18 @@ export const jsPortfolio = [
         title: "This Portfolio Site",
         img: "assets/portfoliosite.png"
     },  
+    {
+        id: "5",
+        title: "TaskTango",
+        img: "assets/gallery.jpg",
+        link: "https://devpost.com/software/tasktango"
+    },
+    {
+        id: "6",
+        title: "PortfolioV2",
+        img: "assets/comingsoon.jpg",
+        link: "https://v2.ajayganesh.com"
+    }
 ]
 
     

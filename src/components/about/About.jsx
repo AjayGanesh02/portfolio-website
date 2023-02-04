@@ -8,7 +8,7 @@ export default function About() {
         <div className="left">
           <h1>/about me</h1>
           <div className="wrapper">
-            <p>Hey! I'm a rising 3rd year CS student at the University of Michigan College of Engineering.<br/>
+            <p>Hey! I'm a 3rd year CS student at the University of Michigan College of Engineering.<br/>
               I grew up in New Albany, Ohio, where I've been fortunate enough to soak up tons of previous CS experience.<br/>
               I've had a deep love of all things tech ever since childhood, and I'm excited to share that with you!<br/>
               My most recent job was as a Software Engineer Intern at CaringWire, a startup in the Columbus Area. <br/>
@@ -28,7 +28,7 @@ export default function About() {
             <li> - Gaming! I play Valorant and Teamfight Tactics </li>
             <li> - Music - <a href="https://open.spotify.com/user/224czyl7a6dnrgduovxrvimxi?si=b20a120379dd48ae" target="_blank" rel="noopener noreferrer">Click here for my Spotify :)</a></li>
             <li> - Fashion </li>
-            <li> - Travel - Toronto soon!</li>
+            <li> - Travel </li>
           </ul>
           </FadeInSection>
         </div>
